@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fashions By Lina</title>
-    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400&display=swap" rel="stylesheet">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -28,6 +28,7 @@
         }
         .categories {
             display: flex;
+            flex-wrap: wrap;
             justify-content: center;
             margin: 20px 0;
         }
@@ -38,7 +39,8 @@
             margin: 10px;
             padding: 15px;
             text-align: center;
-            width: 200px;
+            width: calc(50% - 40px); /* Adjusts width for responsiveness */
+            max-width: 200px; /* Prevents overly wide categories */
         }
         .category img {
             max-width: 100%;
@@ -53,15 +55,26 @@
             bottom: 0;
             width: 100%;
         }
+
+        /* Responsive styles */
+        @media (max-width: 600px) {
+            .category {
+                width: calc(100% - 40px); /* Full width on smaller screens */
+            }
+            header img {
+                width: 200px; /* Adjust logo size for mobile */
+            }
+            h1 {
+                font-size: 2em; /* Adjust title size */
+            }
+            h2 {
+                font-size: 1.2em; /* Adjust subtitle size */
+            }
+        }
     </style>
 </head>
 <body>
-
-<head>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400&display=swap" rel="stylesheet">
-</head>
-<body>
-<header style="padding: 20px; background-color: #333; color: white;">
+<header>
     <div style="display: flex; align-items: center; margin-bottom: 10px;">
         <img src="images/linatitle2.jpg" alt="Fashion Image" style="width: 250px; height: auto; margin-top: 20px; align-items: center;">
         <div>
@@ -70,10 +83,10 @@
         </div>
     </div>
     <nav style="text-align: center; margin-top: 10px;">
-        <a href="#home" style="color: white; margin: 0 15px; text-decoration: none;">Home</a>
-        <a href="#about" style="color: white; margin: 0 15px; text-decoration: none;">About Us</a>
-        <a href="#shop" style="color: white; margin: 0 15px; text-decoration: none;">Shop</a>
-        <a href="#contact" style="color: white; margin: 0 15px; text-decoration: none;">Contact</a>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#shop">Shop</a>
+        <a href="#contact">Contact</a>
     </nav>
 </header>
 
