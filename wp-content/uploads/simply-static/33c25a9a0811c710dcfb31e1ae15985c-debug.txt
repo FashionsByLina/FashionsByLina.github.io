@@ -1,0 +1,517 @@
+[2024-10-02 01:51:36] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
+[2024-10-02 01:51:36] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, generate_404, transfer_files_locally, wrapup
+[2024-10-02 01:51:36] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
+[2024-10-02 01:51:36] [class-ss-archive-creation-job.php:136] Current task: setup
+[2024-10-02 01:51:36] [class-ss-archive-creation-job.php:153] Performing task: setup
+[2024-10-02 01:51:36] [class-ss-task.php:44] Status message: [setup] Setting up
+[2024-10-02 01:51:36] [class-ss-setup-task.php:33] Creating archive directory: C:\xampp\htdocs\FashionsByLina.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1727833896\
+[2024-10-02 01:51:36] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/fashionsbylina.github.io/
+[2024-10-02 01:51:36] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
+[2024-10-02 01:51:36] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-02 01:51:36] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-02 01:51:36] [class-ss-fetch-urls-task.php:69] Total pages: 1; Pages remaining: 1
+[2024-10-02 01:51:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fashionsbylina.github.io/
+[2024-10-02 01:51:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 1
+[2024-10-02 01:51:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-02 01:51:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ericw\AppData\Local\Temp/66fca728cd4dd-jkr1cW.tmp
+[2024-10-02 01:51:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fashionsbylina.github.io/?simply_static_page=1
+[2024-10-02 01:51:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fashionsbylina.github.io/?simply_static_page=1
+[2024-10-02 01:51:37] [class-ss-url-fetcher.php:103] Filesize: 84532 bytes
+[2024-10-02 01:51:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-02 01:51:37] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2024-10-02 01:51:37] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ericw\AppData\Local\Temp/66fca728cd4dd-jkr1cW.tmp to C:\xampp\htdocs\FashionsByLina.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1727833896/index.html
+[2024-10-02 01:51:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-02 01:51:38] [class-ss-fetch-urls-task.php:159] Adding 20 URLs to the queue
+[2024-10-02 01:51:38] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-02 01:51:39] [class-ss-page.php:119] Checking Content Identical:065e07200be18db12b2c3ebcf0b6e58474596925===. Value: FALSE
+[2024-10-02 01:51:39] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 1 pages/files
+[2024-10-02 01:51:39] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-10-02 01:51:39] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-02 01:51:39] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-02 01:51:39] [class-ss-fetch-urls-task.php:69] Total pages: 21; Pages remaining: 20
+[2024-10-02 01:51:39] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fashionsbylina.github.io
+[2024-10-02 01:51:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 21
+[2024-10-02 01:51:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-02 01:51:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ericw\AppData\Local\Temp/66fca72b83a20-Exwpzr.tmp
+[2024-10-02 01:51:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fashionsbylina.github.io?simply_static_page=2
+[2024-10-02 01:51:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fashionsbylina.github.io?simply_static_page=2
+[2024-10-02 01:51:39] [class-ss-url-fetcher.php:103] Filesize: 370 bytes
+[2024-10-02 01:51:39] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=iso-8859-1
+[2024-10-02 01:51:39] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-10-02 01:51:39] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/fashionsbylina.github.io/
+[2024-10-02 01:51:39] [class-ss-fetch-urls-task.php:213] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2024-10-02 01:51:39] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fashionsbylina.github.io/sample-page/
+[2024-10-02 01:51:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 21
+[2024-10-02 01:51:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-02 01:51:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ericw\AppData\Local\Temp/66fca72b8ca5c-jXEBXb.tmp
+[2024-10-02 01:51:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fashionsbylina.github.io/sample-page/?simply_static_page=3
+[2024-10-02 01:51:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fashionsbylina.github.io/sample-page/?simply_static_page=3
+[2024-10-02 01:51:40] [class-ss-url-fetcher.php:103] Filesize: 60200 bytes
+[2024-10-02 01:51:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-02 01:51:40] [class-ss-url-fetcher.php:233] New filename for static page: /sample-page/index.html
+[2024-10-02 01:51:40] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ericw\AppData\Local\Temp/66fca72b8ca5c-jXEBXb.tmp to C:\xampp\htdocs\FashionsByLina.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1727833896/sample-page/index.html
+[2024-10-02 01:51:40] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-02 01:51:41] [class-ss-fetch-urls-task.php:159] Adding 18 URLs to the queue
+[2024-10-02 01:51:41] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-02 01:51:42] [class-ss-page.php:119] Checking Content Identical:661775d8a387dc09559be57e9618fd9629fb46da===. Value: FALSE
+[2024-10-02 01:51:42] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fashionsbylina.github.io/2024/10/02/hello-world/
+[2024-10-02 01:51:42] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 21
+[2024-10-02 01:51:42] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-02 01:51:42] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ericw\AppData\Local\Temp/66fca72e488c9-UnrEXh.tmp
+[2024-10-02 01:51:42] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fashionsbylina.github.io/2024/10/02/hello-world/?simply_static_page=4
+[2024-10-02 01:51:42] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fashionsbylina.github.io/2024/10/02/hello-world/?simply_static_page=4
+[2024-10-02 01:51:42] [class-ss-url-fetcher.php:103] Filesize: 76882 bytes
+[2024-10-02 01:51:42] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-02 01:51:42] [class-ss-url-fetcher.php:233] New filename for static page: /2024/10/02/hello-world/index.html
+[2024-10-02 01:51:42] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ericw\AppData\Local\Temp/66fca72e488c9-UnrEXh.tmp to C:\xampp\htdocs\FashionsByLina.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1727833896/2024/10/02/hello-world/index.html
+[2024-10-02 01:51:42] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-02 01:51:44] [class-ss-fetch-urls-task.php:159] Adding 22 URLs to the queue
+[2024-10-02 01:51:44] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-02 01:51:44] [class-ss-page.php:119] Checking Content Identical:832cee3aa62114ed8a59dcb727c7cdd3886b8598===. Value: FALSE
+[2024-10-02 01:51:44] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fashionsbylina.github.io/author/edwardrichard/
+[2024-10-02 01:51:44] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 21
+[2024-10-02 01:51:44] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-02 01:51:44] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ericw\AppData\Local\Temp/66fca730dc6de-zT1d0o.tmp
+[2024-10-02 01:51:44] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fashionsbylina.github.io/author/edwardrichard/?simply_static_page=5
+[2024-10-02 01:51:44] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fashionsbylina.github.io/author/edwardrichard/?simply_static_page=5
+[2024-10-02 01:51:45] [class-ss-url-fetcher.php:103] Filesize: 64047 bytes
+[2024-10-02 01:51:45] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-02 01:51:45] [class-ss-url-fetcher.php:233] New filename for static page: /author/edwardrichard/index.html
+[2024-10-02 01:51:45] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ericw\AppData\Local\Temp/66fca730dc6de-zT1d0o.tmp to C:\xampp\htdocs\FashionsByLina.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1727833896/author/edwardrichard/index.html
+[2024-10-02 01:51:45] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-02 01:51:47] [class-ss-fetch-urls-task.php:159] Adding 18 URLs to the queue
+[2024-10-02 01:51:47] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-02 01:51:47] [class-ss-page.php:119] Checking Content Identical:41e44f361f7ab7ba4dda6822db31682e737ca789===. Value: FALSE
+[2024-10-02 01:51:47] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fashionsbylina.github.io/category/uncategorized/
+[2024-10-02 01:51:47] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 21
+[2024-10-02 01:51:47] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-02 01:51:47] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ericw\AppData\Local\Temp/66fca733b36d4-gOZu8o.tmp
+[2024-10-02 01:51:47] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fashionsbylina.github.io/category/uncategorized/?simply_static_page=6
+[2024-10-02 01:51:47] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fashionsbylina.github.io/category/uncategorized/?simply_static_page=6
+[2024-10-02 01:51:48] [class-ss-url-fetcher.php:103] Filesize: 56705 bytes
+[2024-10-02 01:51:48] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-10-02 01:51:48] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-10-02 01:51:48] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ericw\AppData\Local\Temp/66fca734493b5-hvfz9R.tmp
+[2024-10-02 01:51:48] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fashionsbylina.github.io/category/uncategorized/
+[2024-10-02 01:51:48] [class-ss-url-fetcher.php:103] Filesize: 56705 bytes
+[2024-10-02 01:51:48] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-10-02 01:51:48] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-10-02 01:51:48] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fashionsbylina.github.io/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
+[2024-10-02 01:51:48] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 21
+[2024-10-02 01:51:48] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-02 01:51:48] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ericw\AppData\Local\Temp/66fca734d3af6-A2ToSq.tmp
+[2024-10-02 01:51:48] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fashionsbylina.github.io/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp?simply_static_page=7
+[2024-10-02 01:51:48] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fashionsbylina.github.io/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp?simply_static_page=7
+[2024-10-02 01:51:48] [class-ss-url-fetcher.php:103] Filesize: 199724 bytes
+[2024-10-02 01:51:48] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-10-02 01:51:48] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
+[2024-10-02 01:51:48] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ericw\AppData\Local\Temp/66fca734d3af6-A2ToSq.tmp to C:\xampp\htdocs\FashionsByLina.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1727833896/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
+[2024-10-02 01:51:48] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-02 01:51:48] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-02 01:51:48] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-02 01:51:48] [class-ss-page.php:119] Checking Content Identical:6804bf960deaa7ce32a32d8908cff9df0b157772===. Value: FALSE
+[2024-10-02 01:51:48] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fashionsbylina.github.io/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp
+[2024-10-02 01:51:48] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 21
+[2024-10-02 01:51:48] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-02 01:51:48] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ericw\AppData\Local\Temp/66fca734e1245-yF7Ak5.tmp
+[2024-10-02 01:51:48] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fashionsbylina.github.io/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp?simply_static_page=8
+[2024-10-02 01:51:48] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fashionsbylina.github.io/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp?simply_static_page=8
+[2024-10-02 01:51:48] [class-ss-url-fetcher.php:103] Filesize: 66482 bytes
+[2024-10-02 01:51:48] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-10-02 01:51:48] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp
+[2024-10-02 01:51:48] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ericw\AppData\Local\Temp/66fca734e1245-yF7Ak5.tmp to C:\xampp\htdocs\FashionsByLina.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1727833896/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp
+[2024-10-02 01:51:48] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-02 01:51:48] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-02 01:51:48] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-02 01:51:48] [class-ss-page.php:119] Checking Content Identical:5d2c6cd3d8d2c412281237628073e451257716e4===. Value: FALSE
+[2024-10-02 01:51:48] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fashionsbylina.github.io/wp-content/themes/twentytwentyfour/assets/images/windows.webp
+[2024-10-02 01:51:48] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 21
+[2024-10-02 01:51:48] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-02 01:51:48] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ericw\AppData\Local\Temp/66fca734ea50d-WL2M4P.tmp
+[2024-10-02 01:51:48] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fashionsbylina.github.io/wp-content/themes/twentytwentyfour/assets/images/windows.webp?simply_static_page=9
+[2024-10-02 01:51:48] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fashionsbylina.github.io/wp-content/themes/twentytwentyfour/assets/images/windows.webp?simply_static_page=9
+[2024-10-02 01:51:48] [class-ss-url-fetcher.php:103] Filesize: 126244 bytes
+[2024-10-02 01:51:48] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-10-02 01:51:48] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/images/windows.webp
+[2024-10-02 01:51:48] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ericw\AppData\Local\Temp/66fca734ea50d-WL2M4P.tmp to C:\xampp\htdocs\FashionsByLina.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1727833896/wp-content/themes/twentytwentyfour/assets/images/windows.webp
+[2024-10-02 01:51:48] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-02 01:51:48] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-02 01:51:48] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-02 01:51:48] [class-ss-page.php:119] Checking Content Identical:18a3284f7b5ec684211dc355fe2ae56b30639a9e===. Value: FALSE
+[2024-10-02 01:51:48] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fashionsbylina.github.io/wp-includes/blocks/navigation/view.min.js
+[2024-10-02 01:51:48] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 21
+[2024-10-02 01:51:48] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-02 01:51:48] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ericw\AppData\Local\Temp/66fca734f3328-5bTwX7.tmp
+[2024-10-02 01:51:48] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fashionsbylina.github.io/wp-includes/blocks/navigation/view.min.js?simply_static_page=10
+[2024-10-02 01:51:48] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fashionsbylina.github.io/wp-includes/blocks/navigation/view.min.js?simply_static_page=10
+[2024-10-02 01:51:49] [class-ss-url-fetcher.php:103] Filesize: 3300 bytes
+[2024-10-02 01:51:49] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-02 01:51:49] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/view.min.js
+[2024-10-02 01:51:49] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ericw\AppData\Local\Temp/66fca734f3328-5bTwX7.tmp to C:\xampp\htdocs\FashionsByLina.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1727833896/wp-includes/blocks/navigation/view.min.js
+[2024-10-02 01:51:49] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-02 01:51:49] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-02 01:51:49] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-02 01:51:49] [class-ss-page.php:119] Checking Content Identical:b27ba805d3b9118edfd523f01fd6e84229d52ffd===. Value: FALSE
+[2024-10-02 01:51:49] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fashionsbylina.github.io/feed/
+[2024-10-02 01:51:49] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 21
+[2024-10-02 01:51:49] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-02 01:51:49] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ericw\AppData\Local\Temp/66fca7350a1f0-w0lk3q.tmp
+[2024-10-02 01:51:49] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fashionsbylina.github.io/feed/?simply_static_page=11
+[2024-10-02 01:51:49] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fashionsbylina.github.io/feed/?simply_static_page=11
+[2024-10-02 01:51:49] [class-ss-url-fetcher.php:103] Filesize: 1799 bytes
+[2024-10-02 01:51:49] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-02 01:51:49] [class-ss-url-fetcher.php:233] New filename for static page: /feed/index.xml
+[2024-10-02 01:51:49] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ericw\AppData\Local\Temp/66fca7350a1f0-w0lk3q.tmp to C:\xampp\htdocs\FashionsByLina.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1727833896/feed/index.xml
+[2024-10-02 01:51:49] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-02 01:51:49] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-10-02 01:51:49] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-02 01:51:49] [class-ss-page.php:119] Checking Content Identical:4f45137f5ce63181d81b7a7a7e40ced447a2c6ac===. Value: FALSE
+[2024-10-02 01:51:49] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fashionsbylina.github.io/comments/feed/
+[2024-10-02 01:51:49] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 21
+[2024-10-02 01:51:49] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-02 01:51:49] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ericw\AppData\Local\Temp/66fca7358ab10-1Y7a86.tmp
+[2024-10-02 01:51:49] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fashionsbylina.github.io/comments/feed/?simply_static_page=12
+[2024-10-02 01:51:49] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fashionsbylina.github.io/comments/feed/?simply_static_page=12
+[2024-10-02 01:51:50] [class-ss-url-fetcher.php:103] Filesize: 1736 bytes
+[2024-10-02 01:51:50] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-02 01:51:50] [class-ss-url-fetcher.php:233] New filename for static page: /comments/feed/index.xml
+[2024-10-02 01:51:50] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ericw\AppData\Local\Temp/66fca7358ab10-1Y7a86.tmp to C:\xampp\htdocs\FashionsByLina.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1727833896/comments/feed/index.xml
+[2024-10-02 01:51:50] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-02 01:51:50] [class-ss-fetch-urls-task.php:159] Adding 4 URLs to the queue
+[2024-10-02 01:51:50] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-02 01:51:50] [class-ss-page.php:119] Checking Content Identical:4c38d4bda40773ffa1211dea910a44dfadeabdf4===. Value: FALSE
+[2024-10-02 01:51:50] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fashionsbylina.github.io/wp-includes/blocks/navigation/style.min.css
+[2024-10-02 01:51:50] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 21
+[2024-10-02 01:51:50] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-02 01:51:50] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ericw\AppData\Local\Temp/66fca7361ed38-GfCDpE.tmp
+[2024-10-02 01:51:50] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fashionsbylina.github.io/wp-includes/blocks/navigation/style.min.css?simply_static_page=13
+[2024-10-02 01:51:50] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fashionsbylina.github.io/wp-includes/blocks/navigation/style.min.css?simply_static_page=13
+[2024-10-02 01:51:50] [class-ss-url-fetcher.php:103] Filesize: 16384 bytes
+[2024-10-02 01:51:50] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-10-02 01:51:50] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/style.min.css
+[2024-10-02 01:51:50] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ericw\AppData\Local\Temp/66fca7361ed38-GfCDpE.tmp to C:\xampp\htdocs\FashionsByLina.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1727833896/wp-includes/blocks/navigation/style.min.css
+[2024-10-02 01:51:50] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-02 01:51:50] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-02 01:51:50] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-02 01:51:50] [class-ss-page.php:119] Checking Content Identical:da66b61dcc5204277eb7846b9dce55b2e7d58a42===. Value: FALSE
+[2024-10-02 01:51:50] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fashionsbylina.github.io/wp-includes/blocks/image/style.min.css
+[2024-10-02 01:51:50] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 21
+[2024-10-02 01:51:50] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-02 01:51:50] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ericw\AppData\Local\Temp/66fca736329eb-H3kJr4.tmp
+[2024-10-02 01:51:50] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fashionsbylina.github.io/wp-includes/blocks/image/style.min.css?simply_static_page=14
+[2024-10-02 01:51:50] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fashionsbylina.github.io/wp-includes/blocks/image/style.min.css?simply_static_page=14
+[2024-10-02 01:51:50] [class-ss-url-fetcher.php:103] Filesize: 6358 bytes
+[2024-10-02 01:51:50] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-10-02 01:51:50] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/image/style.min.css
+[2024-10-02 01:51:50] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ericw\AppData\Local\Temp/66fca736329eb-H3kJr4.tmp to C:\xampp\htdocs\FashionsByLina.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1727833896/wp-includes/blocks/image/style.min.css
+[2024-10-02 01:51:50] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-02 01:51:50] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-02 01:51:50] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-02 01:51:50] [class-ss-page.php:119] Checking Content Identical:54a1fef5278908a5bbd901dea250139c6d992b6f===. Value: FALSE
+[2024-10-02 01:51:50] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fashionsbylina.github.io/wp-json/
+[2024-10-02 01:51:50] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 21
+[2024-10-02 01:51:50] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-02 01:51:50] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ericw\AppData\Local\Temp/66fca7363b0a8-7GpQB3.tmp
+[2024-10-02 01:51:50] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fashionsbylina.github.io/wp-json/?simply_static_page=15
+[2024-10-02 01:51:50] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fashionsbylina.github.io/wp-json/?simply_static_page=15
+[2024-10-02 01:51:50] [class-ss-url-fetcher.php:103] Filesize: 188658 bytes
+[2024-10-02 01:51:50] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-10-02 01:51:50] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/index.html
+[2024-10-02 01:51:50] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ericw\AppData\Local\Temp/66fca7363b0a8-7GpQB3.tmp to C:\xampp\htdocs\FashionsByLina.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1727833896/wp-json/index.html
+[2024-10-02 01:51:50] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-02 01:51:50] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-02 01:51:50] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-02 01:51:50] [class-ss-page.php:119] Checking Content Identical:ab3d52c875fb3c197dec0b1ecc20678e08d5a0e3===. Value: FALSE
+[2024-10-02 01:51:50] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fashionsbylina.github.io/xmlrpc.php
+[2024-10-02 01:51:50] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 21
+[2024-10-02 01:51:50] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/fashionsbylina.github.io/xmlrpc.php
+[2024-10-02 01:51:50] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-02 01:51:50] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fashionsbylina.github.io/wp-includes/js/dist/interactivity.min.js
+[2024-10-02 01:51:50] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 21
+[2024-10-02 01:51:50] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-02 01:51:50] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ericw\AppData\Local\Temp/66fca736bf813-LN3BO4.tmp
+[2024-10-02 01:51:50] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fashionsbylina.github.io/wp-includes/js/dist/interactivity.min.js?simply_static_page=17
+[2024-10-02 01:51:50] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fashionsbylina.github.io/wp-includes/js/dist/interactivity.min.js?simply_static_page=17
+[2024-10-02 01:51:50] [class-ss-url-fetcher.php:103] Filesize: 36686 bytes
+[2024-10-02 01:51:50] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-02 01:51:50] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/interactivity.min.js
+[2024-10-02 01:51:50] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ericw\AppData\Local\Temp/66fca736bf813-LN3BO4.tmp to C:\xampp\htdocs\FashionsByLina.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1727833896/wp-includes/js/dist/interactivity.min.js
+[2024-10-02 01:51:50] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-02 01:51:50] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-02 01:51:50] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-02 01:51:50] [class-ss-page.php:119] Checking Content Identical:39f2fd1115fdb171ea318c2ca240c7fe53df79b4===. Value: FALSE
+[2024-10-02 01:51:50] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fashionsbylina.github.io/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
+[2024-10-02 01:51:50] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 21
+[2024-10-02 01:51:50] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-02 01:51:50] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ericw\AppData\Local\Temp/66fca736d6bfb-7JhsXX.tmp
+[2024-10-02 01:51:50] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fashionsbylina.github.io/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2?simply_static_page=18
+[2024-10-02 01:51:50] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fashionsbylina.github.io/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2?simply_static_page=18
+[2024-10-02 01:51:50] [class-ss-url-fetcher.php:103] Filesize: 326628 bytes
+[2024-10-02 01:51:50] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-10-02 01:51:50] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
+[2024-10-02 01:51:50] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ericw\AppData\Local\Temp/66fca736d6bfb-7JhsXX.tmp to C:\xampp\htdocs\FashionsByLina.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1727833896/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
+[2024-10-02 01:51:50] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-02 01:51:50] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-02 01:51:50] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-02 01:51:50] [class-ss-page.php:119] Checking Content Identical:40546dbfd5c467c3257d8f3a4ad8af0d9995aeb6===. Value: FALSE
+[2024-10-02 01:51:50] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fashionsbylina.github.io/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2024-10-02 01:51:50] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 21
+[2024-10-02 01:51:50] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-02 01:51:50] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ericw\AppData\Local\Temp/66fca736e20e8-crwfBt.tmp
+[2024-10-02 01:51:50] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fashionsbylina.github.io/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2?simply_static_page=19
+[2024-10-02 01:51:50] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fashionsbylina.github.io/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2?simply_static_page=19
+[2024-10-02 01:51:50] [class-ss-url-fetcher.php:103] Filesize: 146060 bytes
+[2024-10-02 01:51:50] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-10-02 01:51:50] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2024-10-02 01:51:50] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ericw\AppData\Local\Temp/66fca736e20e8-crwfBt.tmp to C:\xampp\htdocs\FashionsByLina.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1727833896/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2024-10-02 01:51:50] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-02 01:51:50] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-02 01:51:50] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-02 01:51:50] [class-ss-page.php:119] Checking Content Identical:b86a6f0bf3fb4777160165dfe37ca4e99b90216e===. Value: FALSE
+[2024-10-02 01:51:50] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fashionsbylina.github.io/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2024-10-02 01:51:50] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 21
+[2024-10-02 01:51:50] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-02 01:51:50] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ericw\AppData\Local\Temp/66fca736f0a20-Axn5Oy.tmp
+[2024-10-02 01:51:50] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fashionsbylina.github.io/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2?simply_static_page=20
+[2024-10-02 01:51:50] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fashionsbylina.github.io/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2?simply_static_page=20
+[2024-10-02 01:51:51] [class-ss-url-fetcher.php:103] Filesize: 105184 bytes
+[2024-10-02 01:51:51] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-10-02 01:51:51] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2024-10-02 01:51:51] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ericw\AppData\Local\Temp/66fca736f0a20-Axn5Oy.tmp to C:\xampp\htdocs\FashionsByLina.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1727833896/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2024-10-02 01:51:51] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-02 01:51:51] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-02 01:51:51] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-02 01:51:51] [class-ss-page.php:119] Checking Content Identical:0fdff68c4027cf421d605798a1de46a061d160a3===. Value: FALSE
+[2024-10-02 01:51:51] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fashionsbylina.github.io/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2024-10-02 01:51:51] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 21
+[2024-10-02 01:51:51] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-02 01:51:51] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ericw\AppData\Local\Temp/66fca73705acb-hJGYdf.tmp
+[2024-10-02 01:51:51] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fashionsbylina.github.io/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2?simply_static_page=21
+[2024-10-02 01:51:51] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fashionsbylina.github.io/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2?simply_static_page=21
+[2024-10-02 01:51:51] [class-ss-url-fetcher.php:103] Filesize: 132564 bytes
+[2024-10-02 01:51:51] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-10-02 01:51:51] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2024-10-02 01:51:51] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ericw\AppData\Local\Temp/66fca73705acb-hJGYdf.tmp to C:\xampp\htdocs\FashionsByLina.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1727833896/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2024-10-02 01:51:51] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-02 01:51:51] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-02 01:51:51] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-02 01:51:51] [class-ss-page.php:119] Checking Content Identical:dc56f8308f3385b427ce85c20b9afc471be17c60===. Value: FALSE
+[2024-10-02 01:51:51] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 1 of 21 pages/files
+[2024-10-02 01:51:51] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-10-02 01:51:51] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-02 01:51:51] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-02 01:51:51] [class-ss-fetch-urls-task.php:69] Total pages: 31; Pages remaining: 10
+[2024-10-02 01:51:51] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fashionsbylina.github.io/wp-admin/
+[2024-10-02 01:51:51] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 31
+[2024-10-02 01:51:51] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-02 01:51:51] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ericw\AppData\Local\Temp/66fca73715a35-LKLZUA.tmp
+[2024-10-02 01:51:51] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fashionsbylina.github.io/wp-admin/?simply_static_page=22
+[2024-10-02 01:51:51] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fashionsbylina.github.io/wp-admin/?simply_static_page=22
+[2024-10-02 01:51:51] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-10-02 01:51:51] [class-ss-url-fetcher.php:119] http_status_code: 302 | content_type: text/html; charset=UTF-8
+[2024-10-02 01:51:51] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-10-02 01:51:51] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/fashionsbylina.github.io/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Ffashionsbylina.github.io%2Fwp-admin%2F%3Fsimply_static_page%3D22&reauth=1
+[2024-10-02 01:51:51] [class-ss-fetch-urls-task.php:231] Redirect URL is on the same domain; adding the URL to the queue
+[2024-10-02 01:51:51] [class-ss-fetch-urls-task.php:243] Creating a redirect page
+[2024-10-02 01:51:51] [class-ss-url-fetcher.php:233] New filename for static page: /wp-admin/index.html
+[2024-10-02 01:51:51] [class-ss-page.php:119] Checking Content Identical:e8867b0257765db19ad7e3fee16b18044c64a9bd===. Value: FALSE
+[2024-10-02 01:51:51] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fashionsbylina.github.io/sample-page/feed/
+[2024-10-02 01:51:51] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 31
+[2024-10-02 01:51:51] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-02 01:51:51] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ericw\AppData\Local\Temp/66fca7377f888-B1CXFu.tmp
+[2024-10-02 01:51:51] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fashionsbylina.github.io/sample-page/feed/?simply_static_page=23
+[2024-10-02 01:51:51] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fashionsbylina.github.io/sample-page/feed/?simply_static_page=23
+[2024-10-02 01:51:51] [class-ss-url-fetcher.php:103] Filesize: 775 bytes
+[2024-10-02 01:51:51] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-02 01:51:51] [class-ss-url-fetcher.php:233] New filename for static page: /sample-page/feed/index.xml
+[2024-10-02 01:51:51] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ericw\AppData\Local\Temp/66fca7377f888-B1CXFu.tmp to C:\xampp\htdocs\FashionsByLina.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1727833896/sample-page/feed/index.xml
+[2024-10-02 01:51:51] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-02 01:51:51] [class-ss-fetch-urls-task.php:159] Adding 2 URLs to the queue
+[2024-10-02 01:51:51] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-02 01:51:51] [class-ss-page.php:119] Checking Content Identical:e70765445f45f0901fc158e9e4901061125dfcb6===. Value: FALSE
+[2024-10-02 01:51:51] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fashionsbylina.github.io/wp-json/wp/v2/pages/2
+[2024-10-02 01:51:51] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 31
+[2024-10-02 01:51:51] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-02 01:51:51] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ericw\AppData\Local\Temp/66fca737e55d2-Qpg7yK.tmp
+[2024-10-02 01:51:51] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fashionsbylina.github.io/wp-json/wp/v2/pages/2?simply_static_page=24
+[2024-10-02 01:51:51] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fashionsbylina.github.io/wp-json/wp/v2/pages/2?simply_static_page=24
+[2024-10-02 01:51:52] [class-ss-url-fetcher.php:103] Filesize: 3061 bytes
+[2024-10-02 01:51:52] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-10-02 01:51:52] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/wp/v2/pages/2\index.html
+[2024-10-02 01:51:52] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ericw\AppData\Local\Temp/66fca737e55d2-Qpg7yK.tmp to C:\xampp\htdocs\FashionsByLina.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1727833896/wp-json/wp/v2/pages/2\index.html
+[2024-10-02 01:51:52] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-02 01:51:52] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-02 01:51:52] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-02 01:51:52] [class-ss-page.php:119] Checking Content Identical:ff18333aec7a1b888049839c359f7ab1c3c850fd===. Value: FALSE
+[2024-10-02 01:51:52] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fashionsbylina.github.io/wp-json/oembed/1.0/embed
+[2024-10-02 01:51:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 31
+[2024-10-02 01:51:52] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-02 01:51:52] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ericw\AppData\Local\Temp/66fca73854576-xudjrB.tmp
+[2024-10-02 01:51:52] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fashionsbylina.github.io/wp-json/oembed/1.0/embed?simply_static_page=25
+[2024-10-02 01:51:52] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fashionsbylina.github.io/wp-json/oembed/1.0/embed?simply_static_page=25
+[2024-10-02 01:51:52] [class-ss-url-fetcher.php:103] Filesize: 115 bytes
+[2024-10-02 01:51:52] [class-ss-url-fetcher.php:119] http_status_code: 400 | content_type: application/json; charset=UTF-8
+[2024-10-02 01:51:52] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-10-02 01:51:52] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fashionsbylina.github.io/wp-includes/js/comment-reply.min.js
+[2024-10-02 01:51:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 31
+[2024-10-02 01:51:52] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-02 01:51:52] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ericw\AppData\Local\Temp/66fca738c30d3-Lbiuem.tmp
+[2024-10-02 01:51:52] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fashionsbylina.github.io/wp-includes/js/comment-reply.min.js?simply_static_page=26
+[2024-10-02 01:51:52] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fashionsbylina.github.io/wp-includes/js/comment-reply.min.js?simply_static_page=26
+[2024-10-02 01:51:52] [class-ss-url-fetcher.php:103] Filesize: 2981 bytes
+[2024-10-02 01:51:52] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-02 01:51:52] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/comment-reply.min.js
+[2024-10-02 01:51:52] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ericw\AppData\Local\Temp/66fca738c30d3-Lbiuem.tmp to C:\xampp\htdocs\FashionsByLina.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1727833896/wp-includes/js/comment-reply.min.js
+[2024-10-02 01:51:52] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-02 01:51:52] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-02 01:51:52] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-02 01:51:52] [class-ss-page.php:119] Checking Content Identical:db36a77f6aaa2063bfbec02c2c0e967438c5a245===. Value: FALSE
+[2024-10-02 01:51:52] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fashionsbylina.github.io/2024/10/02/hello-world/feed/
+[2024-10-02 01:51:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 31
+[2024-10-02 01:51:52] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-02 01:51:52] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ericw\AppData\Local\Temp/66fca738d1922-19PMg1.tmp
+[2024-10-02 01:51:52] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fashionsbylina.github.io/2024/10/02/hello-world/feed/?simply_static_page=27
+[2024-10-02 01:51:52] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fashionsbylina.github.io/2024/10/02/hello-world/feed/?simply_static_page=27
+[2024-10-02 01:51:53] [class-ss-url-fetcher.php:103] Filesize: 1747 bytes
+[2024-10-02 01:51:53] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-02 01:51:53] [class-ss-url-fetcher.php:233] New filename for static page: /2024/10/02/hello-world/feed/index.xml
+[2024-10-02 01:51:53] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ericw\AppData\Local\Temp/66fca738d1922-19PMg1.tmp to C:\xampp\htdocs\FashionsByLina.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1727833896/2024/10/02/hello-world/feed/index.xml
+[2024-10-02 01:51:53] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-02 01:51:53] [class-ss-fetch-urls-task.php:159] Adding 3 URLs to the queue
+[2024-10-02 01:51:53] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-02 01:51:53] [class-ss-page.php:119] Checking Content Identical:6eaca390bcca51e0a84cc1085e958eeb83b40899===. Value: FALSE
+[2024-10-02 01:51:53] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fashionsbylina.github.io/wp-includes/css/dist/block-library/common.min.css
+[2024-10-02 01:51:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 31
+[2024-10-02 01:51:53] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-02 01:51:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ericw\AppData\Local\Temp/66fca73960deb-ssODAg.tmp
+[2024-10-02 01:51:53] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fashionsbylina.github.io/wp-includes/css/dist/block-library/common.min.css?simply_static_page=28
+[2024-10-02 01:51:53] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fashionsbylina.github.io/wp-includes/css/dist/block-library/common.min.css?simply_static_page=28
+[2024-10-02 01:51:53] [class-ss-url-fetcher.php:103] Filesize: 3472 bytes
+[2024-10-02 01:51:53] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-10-02 01:51:53] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/common.min.css
+[2024-10-02 01:51:53] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ericw\AppData\Local\Temp/66fca73960deb-ssODAg.tmp to C:\xampp\htdocs\FashionsByLina.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1727833896/wp-includes/css/dist/block-library/common.min.css
+[2024-10-02 01:51:53] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-02 01:51:53] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-02 01:51:53] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-02 01:51:53] [class-ss-page.php:119] Checking Content Identical:bbde28aa1f2f849a80a69d35191a0814c62648ca===. Value: FALSE
+[2024-10-02 01:51:53] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fashionsbylina.github.io/wp-json/wp/v2/posts/1
+[2024-10-02 01:51:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 31
+[2024-10-02 01:51:53] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-02 01:51:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ericw\AppData\Local\Temp/66fca739695d3-XYOEux.tmp
+[2024-10-02 01:51:53] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fashionsbylina.github.io/wp-json/wp/v2/posts/1?simply_static_page=29
+[2024-10-02 01:51:53] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fashionsbylina.github.io/wp-json/wp/v2/posts/1?simply_static_page=29
+[2024-10-02 01:51:53] [class-ss-url-fetcher.php:103] Filesize: 2058 bytes
+[2024-10-02 01:51:53] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-10-02 01:51:53] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/wp/v2/posts/1\index.html
+[2024-10-02 01:51:53] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ericw\AppData\Local\Temp/66fca739695d3-XYOEux.tmp to C:\xampp\htdocs\FashionsByLina.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1727833896/wp-json/wp/v2/posts/1\index.html
+[2024-10-02 01:51:53] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-02 01:51:53] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-02 01:51:53] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-02 01:51:53] [class-ss-page.php:119] Checking Content Identical:ce973c606894f6030d6f7ec7f6a3847e6e989e8c===. Value: FALSE
+[2024-10-02 01:51:53] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fashionsbylina.github.io/author/edwardrichard/feed/
+[2024-10-02 01:51:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 31
+[2024-10-02 01:51:53] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-02 01:51:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ericw\AppData\Local\Temp/66fca739eabc6-9uUo3s.tmp
+[2024-10-02 01:51:53] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fashionsbylina.github.io/author/edwardrichard/feed/?simply_static_page=30
+[2024-10-02 01:51:53] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fashionsbylina.github.io/author/edwardrichard/feed/?simply_static_page=30
+[2024-10-02 01:51:54] [class-ss-url-fetcher.php:103] Filesize: 1842 bytes
+[2024-10-02 01:51:54] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-02 01:51:54] [class-ss-url-fetcher.php:233] New filename for static page: /author/edwardrichard/feed/index.xml
+[2024-10-02 01:51:54] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ericw\AppData\Local\Temp/66fca739eabc6-9uUo3s.tmp to C:\xampp\htdocs\FashionsByLina.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1727833896/author/edwardrichard/feed/index.xml
+[2024-10-02 01:51:54] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-02 01:51:54] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-10-02 01:51:54] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-02 01:51:54] [class-ss-page.php:119] Checking Content Identical:443404ceedf196e6861225ad44334bb65a8a9104===. Value: FALSE
+[2024-10-02 01:51:54] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fashionsbylina.github.io/wp-json/wp/v2/users/1
+[2024-10-02 01:51:54] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 31
+[2024-10-02 01:51:54] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-02 01:51:54] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ericw\AppData\Local\Temp/66fca73a7aa5d-sFm40A.tmp
+[2024-10-02 01:51:54] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fashionsbylina.github.io/wp-json/wp/v2/users/1?simply_static_page=31
+[2024-10-02 01:51:54] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fashionsbylina.github.io/wp-json/wp/v2/users/1?simply_static_page=31
+[2024-10-02 01:51:55] [class-ss-url-fetcher.php:103] Filesize: 688 bytes
+[2024-10-02 01:51:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-10-02 01:51:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/wp/v2/users/1\index.html
+[2024-10-02 01:51:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ericw\AppData\Local\Temp/66fca73a7aa5d-sFm40A.tmp to C:\xampp\htdocs\FashionsByLina.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1727833896/wp-json/wp/v2/users/1\index.html
+[2024-10-02 01:51:55] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-02 01:51:55] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-02 01:51:55] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-02 01:51:55] [class-ss-page.php:119] Checking Content Identical:229a4860f55b8e7f987c9b1114d0ac8a27f9ffa4===. Value: FALSE
+[2024-10-02 01:51:55] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 21 of 31 pages/files
+[2024-10-02 01:51:55] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-10-02 01:51:55] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-02 01:51:55] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-02 01:51:55] [class-ss-fetch-urls-task.php:69] Total pages: 32; Pages remaining: 1
+[2024-10-02 01:51:55] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fashionsbylina.github.io/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Ffashionsbylina.github.io%2Fwp-admin%2F%3Fsimply_static_page%3D22&reauth=1
+[2024-10-02 01:51:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 32
+[2024-10-02 01:51:55] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/fashionsbylina.github.io/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Ffashionsbylina.github.io%2Fwp-admin%2F%3Fsimply_static_page%3D22&reauth=1
+[2024-10-02 01:51:55] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-02 01:51:55] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 31 of 32 pages/files
+[2024-10-02 01:51:55] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-10-02 01:51:55] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-02 01:51:55] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-02 01:51:55] [class-ss-fetch-urls-task.php:69] Total pages: 32; Pages remaining: 0
+[2024-10-02 01:51:55] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 32 of 32 pages/files
+[2024-10-02 01:51:55] [class-ss-archive-creation-job.php:175] We've found our next task: generate_404
+[2024-10-02 01:51:55] [class-ss-archive-creation-job.php:136] Current task: generate_404
+[2024-10-02 01:51:55] [class-ss-archive-creation-job.php:153] Performing task: generate_404
+[2024-10-02 01:51:55] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
+[2024-10-02 01:51:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ericw\AppData\Local\Temp/66fca73b12ddd-t1tUO6.tmp
+[2024-10-02 01:51:55] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fashionsbylina.github.io/1727833916?simply_static_page=0
+[2024-10-02 01:51:55] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fashionsbylina.github.io/1727833916?simply_static_page=0
+[2024-10-02 01:51:55] [class-ss-url-fetcher.php:103] Filesize: 56705 bytes
+[2024-10-02 01:51:55] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-10-02 01:51:55] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
+[2024-10-02 01:51:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ericw\AppData\Local\Temp/66fca73b12ddd-t1tUO6.tmp to C:\xampp\htdocs\FashionsByLina.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1727833896\404/index.html
+[2024-10-02 01:51:55] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
+[2024-10-02 01:51:57] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
+[2024-10-02 01:51:57] [class-ss-page.php:119] Checking Content Identical:9d6083ad0381e1e3d205b3ddb2bda6ee6b37aa79===. Value: FALSE
+[2024-10-02 01:51:57] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
+[2024-10-02 01:51:57] [class-ss-archive-creation-job.php:175] We've found our next task: transfer_files_locally
+[2024-10-02 01:51:58] [class-ss-archive-creation-job.php:136] Current task: transfer_files_locally
+[2024-10-02 01:51:58] [class-ss-archive-creation-job.php:153] Performing task: transfer_files_locally
+[2024-10-02 01:51:58] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferring 27 of 27 files
+[2024-10-02 01:51:58] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FashionsByLina.github.io/
+[2024-10-02 01:51:58] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FashionsByLina.github.io/sample-page
+[2024-10-02 01:51:58] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FashionsByLina.github.io/2024/10/02/hello-world
+[2024-10-02 01:51:58] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FashionsByLina.github.io/author/edwardrichard
+[2024-10-02 01:51:58] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FashionsByLina.github.io/wp-content/themes/twentytwentyfour/assets/images
+[2024-10-02 01:51:58] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FashionsByLina.github.io/wp-content/themes/twentytwentyfour/assets/images
+[2024-10-02 01:51:58] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FashionsByLina.github.io/wp-content/themes/twentytwentyfour/assets/images
+[2024-10-02 01:51:58] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FashionsByLina.github.io/wp-includes/blocks/navigation
+[2024-10-02 01:51:58] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FashionsByLina.github.io/feed
+[2024-10-02 01:51:58] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FashionsByLina.github.io/comments/feed
+[2024-10-02 01:51:58] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FashionsByLina.github.io/wp-includes/blocks/navigation
+[2024-10-02 01:51:58] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FashionsByLina.github.io/wp-includes/blocks/image
+[2024-10-02 01:51:58] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FashionsByLina.github.io/wp-json
+[2024-10-02 01:51:58] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FashionsByLina.github.io/wp-includes/js/dist
+[2024-10-02 01:51:58] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FashionsByLina.github.io/wp-content/themes/twentytwentyfour/assets/fonts/inter
+[2024-10-02 01:51:58] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FashionsByLina.github.io/wp-content/themes/twentytwentyfour/assets/fonts/cardo
+[2024-10-02 01:51:58] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FashionsByLina.github.io/wp-content/themes/twentytwentyfour/assets/fonts/cardo
+[2024-10-02 01:51:58] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FashionsByLina.github.io/wp-content/themes/twentytwentyfour/assets/fonts/cardo
+[2024-10-02 01:51:58] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FashionsByLina.github.io/wp-admin
+[2024-10-02 01:51:58] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FashionsByLina.github.io/sample-page/feed
+[2024-10-02 01:51:58] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FashionsByLina.github.io/wp-json/wp/v2/pages
+[2024-10-02 01:51:58] [class-ss-transfer-files-locally-task.php:115] Cannot copy C:/xampp/htdocs/FashionsByLina.github.io/wp-content/uploads/simply-static/temp-files/simply-static-1-1727833896/wp-json/wp/v2/pages/2/index.html to C:/xampp/htdocs/FashionsByLina.github.io/wp-json/wp/v2/pages/2/index.html
+[2024-10-02 01:51:58] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FashionsByLina.github.io/wp-includes/js
+[2024-10-02 01:51:58] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FashionsByLina.github.io/2024/10/02/hello-world/feed
+[2024-10-02 01:51:58] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FashionsByLina.github.io/wp-includes/css/dist/block-library
+[2024-10-02 01:51:58] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FashionsByLina.github.io/wp-json/wp/v2/posts
+[2024-10-02 01:51:58] [class-ss-transfer-files-locally-task.php:115] Cannot copy C:/xampp/htdocs/FashionsByLina.github.io/wp-content/uploads/simply-static/temp-files/simply-static-1-1727833896/wp-json/wp/v2/posts/1/index.html to C:/xampp/htdocs/FashionsByLina.github.io/wp-json/wp/v2/posts/1/index.html
+[2024-10-02 01:51:58] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FashionsByLina.github.io/author/edwardrichard/feed
+[2024-10-02 01:51:58] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/FashionsByLina.github.io/wp-json/wp/v2/users
+[2024-10-02 01:51:58] [class-ss-transfer-files-locally-task.php:115] Cannot copy C:/xampp/htdocs/FashionsByLina.github.io/wp-content/uploads/simply-static/temp-files/simply-static-1-1727833896/wp-json/wp/v2/users/1/index.html to C:/xampp/htdocs/FashionsByLina.github.io/wp-json/wp/v2/users/1/index.html
+[2024-10-02 01:51:58] [class-ss-transfer-files-locally-task.php:73] [Transfer] Total Pages:27. Processed Pages: 27
+[2024-10-02 01:51:58] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 27 of 27 files
+[2024-10-02 01:51:58] [trait-can-process-pages.php:110] Total pages: 27; Pages remaining: 0
+[2024-10-02 01:51:58] [class-ss-transfer-files-locally-task.php:238] Transferring 404 Page
+[2024-10-02 01:51:58] [class-ss-transfer-files-locally-task.php:257] Destination 404 Page found at C:/xampp/htdocs/FashionsByLina.github.io\404\index.html
+[2024-10-02 01:51:58] [class-ss-transfer-files-locally-task.php:261] Success
+[2024-10-02 01:51:58] [class-ss-task.php:44] Status message: [destination_url] Destination URL: <a href="https://https://fashionsbylina.github.io/" target="_blank">https://https://fashionsbylina.github.io/</a>
+[2024-10-02 01:51:58] [class-ss-archive-creation-job.php:175] We've found our next task: wrapup
+[2024-10-02 01:51:58] [class-ss-archive-creation-job.php:136] Current task: wrapup
+[2024-10-02 01:51:58] [class-ss-archive-creation-job.php:153] Performing task: wrapup
+[2024-10-02 01:51:58] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2024-10-02 01:51:58] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2024-10-02 01:51:58] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
+[2024-10-02 01:51:58] [class-ss-archive-creation-job.php:197] Completing the job
+[2024-10-02 01:51:58] [class-ss-archive-creation-job.php:324] Status message: [done] Done! Finished in 00:00:22
